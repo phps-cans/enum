@@ -1,0 +1,31 @@
+{
+    "name": "phps-cans/enum",
+    "type": "library",
+    "description": "PHP Enum implementation",
+    "keywords": ["enum"],
+    "homepage": "https://github.com/phps-cans/enum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xavier Huberty",
+            "email": "x.huberty@thecodingmachine.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PSCS\\Enum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PSCS\\Tests\\Enum\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*",
+        "squizlabs/php_codesniffer": "1.*"
+    }
+}
